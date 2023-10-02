@@ -8,7 +8,7 @@ st.title('Diabetes App')
 st.markdown('''This app predicts the probability of a person having diabetes based on their health parameters and age.
             The dataset used here is the Pima Indians Diabetes Database. It was originally collected by the National Institute of Diabetes and Digestive and Kidney Diseases.
             The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset.
-            The app will show visual representation of data and also predict the probability of a person having diabetes.''')
+            The app will show visual representation of data and also predict the probability of a person having diabetes with other factors.''')
 df = pd.read_csv('diabetes.csv')
 st.subheader('Data Information:')
 if st.checkbox('Show raw data'):
