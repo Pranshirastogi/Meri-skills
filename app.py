@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns  
 import plotly.express as px 
 import streamlit as st
-
+st.cache_data()
 st.title('Diabetes App')
 st.markdown('''This app predicts the probability of a person having diabetes based on their health parameters and age.
             The dataset used here is the Pima Indians Diabetes Database. It was originally collected by the National Institute of Diabetes and Digestive and Kidney Diseases.
